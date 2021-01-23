@@ -61,7 +61,7 @@ header {
 
 }
 header .inner {
-    height: 177px;
+    height: 179px;
 }
 header .menu-group {
     display: flex;
@@ -70,7 +70,7 @@ header .menu-group {
 }
 header .logo {
     margin-right: 100px;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
 }
 header .logo a {
@@ -95,7 +95,7 @@ header .sign-group {
 }
 #search {
     width: 160px;
-    font-size: 12px;
+    font-size: 13px;
     margin-right: 20px;
 }
 #search + [type="submit"] {
@@ -165,11 +165,12 @@ header .sign-menu:last-child {
     margin-bottom: 100px;
 }
 .section--footer ul li {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .section--footer ul li a {
     text-decoration: none;
     color: #939597;
+    font-size: 13px;
 }
 .section--footer ul li a:hover {
     text-decoration: underline;
