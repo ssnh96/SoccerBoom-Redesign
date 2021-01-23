@@ -1,6 +1,6 @@
 .body__container  { 
     font-family: 'NanumBarunGothic', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: #333333;
 }
@@ -55,23 +55,6 @@ a {
     position: relative;
 }
 
-/* Product */
-
-.product .name {
-    margin-top: 10px;
-}
-.product .price {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 100px;
-}
-.product {
-    margin-right: 30px;
-}
-.product a {
-    color: #333333;
-}
 
 /* Header */
 header {
@@ -129,53 +112,69 @@ header .sign-menu li a {
     margin: 0px 20px;
     color: #333333;
 }
-header .sign-menu .last {
-    margin-right: 0;
+
+header .sign-menu:last-child {
+    margin-right: 0px;
 }
 
 
-/* line */
-.section--first-line .inner {
-    display: flex;
+
+
+/* Product */
+.section--product ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
-.section--firstLine .product {
+.section--product li {
+    box-sizing: border-box;
+}
+.section--product .product li img {
+    max-width: 100%;
     margin-top: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
-.section--second-line .inner {
-    display: flex;
+.section--product .product li a {
+    color: #333333;
 }
-.section--third-line .inner {
-    display: flex;
+.section--product .product li p {
+    margin-bottom: 10px;
+    font-size: 13px;
 }
-.section--fourth-line .inner {
-    display: flex;
+.section--product .product li h3 {
+    font-weight: bold;
+    margin-bottom: 50px;
 }
-.section--fifth-line .inner {
-    display: flex;
-}
+
+
+
+
+
+
+
 
 
 /* Footer */
-footer .inner {
+.section--footer .inner {
     display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
-footer ul {
-    margin-top: 200px;
+.section--footer ul {
+    margin-top: 250px;
     margin-bottom: 100px;
 }
-footer ul li {
+.section--footer ul li {
     margin-top: 20px;
 }
-footer ul li a {
+.section--footer ul li a {
     text-decoration: none;
     color: #939597;
 }
-footer .footer-title {
+.section--footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.section--footer .footer-title {
     font-weight: bold;
-}
-footer .about {
-    margin-right: 206px;
-}
-footer .customer-service {
-    margin-right: 195px;
 }
