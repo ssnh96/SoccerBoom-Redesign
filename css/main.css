@@ -150,6 +150,32 @@ header .sign-menu .last {
 .section--fourth-line .inner {
     display: flex;
 }
+.section--fifth-line .inner {
+    display: flex;
+}
 
 
-
+/* Footer */
+footer .inner {
+    display: flex;
+}
+footer ul {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+footer ul li {
+    margin-top: 20px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #939597;
+}
+footer .footer-title {
+    font-weight: bold;
+}
+footer .about {
+    margin-right: 206px;
+}
+footer .customer-service {
+    margin-right: 195px;
+}
