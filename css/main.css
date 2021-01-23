@@ -1,0 +1,155 @@
+.body__container  { 
+    font-family: 'NanumBarunGothic', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+a {
+    text-decoration: none;
+}
+
+/* Input */
+/* INPUT TEXT */
+.input--text {
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    font-size: 14px;
+}
+.input--text:focus {
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 
+                0 0 5px rgba(81,167,232,0.5);
+}
+  /* Vender Prefix (업체별 브라우저 접두사) */
+.input--text::-webkit-input-placeholder { color: #cacaca; }
+.input--text::-ms-input-placeholder { color: #cacaca; }
+.input--text::-moz-input-placeholder { color: #cacaca; }
+
+
+/* FLOAT CLEARFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.float--left {
+    float: left;
+}
+.float--right {
+    float: right;
+}
+
+/* Inner */
+.section {
+    position: relative;
+}
+.section .inner {
+    max-width: 1194px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Product */
+
+.product .name {
+    margin-top: 10px;
+}
+.product .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.product {
+    margin-right: 30px;
+}
+.product a {
+    color: #333333;
+}
+
+/* Header */
+header {
+
+}
+header .inner {
+    height: 177px;
+}
+header .menu-group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header .logo {
+    margin-right: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+header .logo a {
+    color: #333333;
+}
+header .main-menu {
+    display: flex;
+    font-weight: bold;
+}
+header .main-menu li a {
+    display: block;
+    margin: 0px 20px;
+    color: #333333;
+}
+header .sign-group {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+#search-form {
+
+}
+#search {
+    width: 160px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+#search + [type="submit"] {
+    display: none;
+}
+
+header .sign-menu {
+    order: 1;
+    display: flex;
+    font-weight: bold;
+}
+header .sign-menu li a {
+    display: block;
+    margin: 0px 20px;
+    color: #333333;
+}
+header .sign-menu .last {
+    margin-right: 0;
+}
+
+
+/* line */
+.section--first-line .inner {
+    display: flex;
+}
+.section--firstLine .product {
+    margin-top: 50px;
+}
+.section--second-line .inner {
+    display: flex;
+}
+.section--third-line .inner {
+    display: flex;
+}
+.section--fourth-line .inner {
+    display: flex;
+}
+
+
+
