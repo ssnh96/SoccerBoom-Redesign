@@ -150,10 +150,6 @@ header .sign-menu:last-child {
 
 
 
-
-
-
-
 /* Footer */
 .section--footer .inner {
     display: flex;
@@ -178,4 +174,72 @@ header .sign-menu:last-child {
 
 .section--footer .footer-title {
     font-weight: bold;
+}
+
+
+
+#toggle-btn {
+    text-indent: -9999px;
+}
+
+
+/* Media */
+@media (max-width: 1024px) {
+    header.section .inner {
+        max-width: none;
+        height: auto;
+        padding: 0 20px;
+    }
+    header .menu-group,
+    header .sign-group {
+        float: none;
+    }
+    header .menu-group {
+        display: block;
+    }
+    header .logo {
+        padding: 50px 0 25px;
+    }
+    header .main-menu {
+        display: block;
+        margin-bottom: 10px;
+    }
+    header .main-menu li {
+        border-top: 1px solid #e5e5e5;
+    }
+    header .main-menu li a {
+        margin: 20px 0;
+    }
+    header .sign-group {
+        display: block;
+    }
+    #search-form {
+        margin-top: 40px;
+        margin-right: 0 ;
+    }
+    #search {
+        width: 100%;
+        height: 42px;
+    }
+    header .sign-menu {
+        margin-top: 20px;
+        margin-right: 0;
+        justify-content: center;
+    }
+    header .toggle {
+        display: none;
+    }
+    header .toggle.on {
+        display: block;
+    }
+    #toggle-btn {
+        background: url(../image/toggle-btn.svg);
+        width: 18px;
+        height: 24px;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        cursor: pointer;
+        text-indent: -9999px;
+    }
 }

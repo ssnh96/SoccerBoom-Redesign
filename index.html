@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <script defer src="main.js"></script>
 
 </head>
 <body>
@@ -43,7 +44,7 @@
             <div class="menu-group float--left">
                 <div class="logo">
                     <a href="http://soccerboom.co.kr/" target="_blank">Soccerboom</a></div>
-                <ul class="main-menu">
+                <ul class="main-menu toggle">
                     <li><a href="http://soccerboom.co.kr/category/%EC%B6%95%EA%B5%AC%ED%99%94%ED%92%8B%EC%82%B4%ED%99%94/29/" target="_blank">축구화</a></li>
                     <li><a href="http://soccerboom.co.kr/category/%EC%B6%95%EA%B5%AC%EC%9A%A9%ED%92%88/32/" target="_blank">용품</a></li>
                     <li><a href="http://soccerboom.co.kr/category/%EA%B8%B0%EB%8A%A5%EC%84%B1%EC%9B%A8%EC%96%B4/355/" target="_blank">기능성 웨어</a></li>
@@ -51,7 +52,7 @@
                 </ul>
             </div>
 
-            <div class="sign-group float--right">
+            <div class="sign-group float--right toggle">
                 <form id="search-form" method="POST" action="">
                     <input id="search" type="text" class="input--text" placeholder="검색">
                     <input type="submit" value="Submit">
@@ -62,6 +63,9 @@
                     <li><a href="http://soccerboom.co.kr/order/basket.html" target="_blank" class="last">장바구니</a></li>
                 </ul>
             </div>
+
+            <div id="toggle-btn">Header Menu Toggle Button</div>
+
         </div>
     </header>
 
