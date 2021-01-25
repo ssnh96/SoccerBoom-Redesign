@@ -87,7 +87,10 @@ header .toggle.on {
 
 /* Footer */
 .section--footer .inner {
-    margin: 0 10%;
+    margin-left: 150px;
+}
+.section--footer .site-links {
+    
 }
 
 
