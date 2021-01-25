@@ -94,14 +94,13 @@ header .sign-group {
 
 }
 #search {
-    width: 160px;
+    width: 140px;
     font-size: 13px;
     margin-right: 20px;
 }
 #search + [type="submit"] {
     display: none;
 }
-
 header .sign-menu {
     order: 1;
     display: flex;
@@ -112,9 +111,19 @@ header .sign-menu li a {
     margin: 0px 20px;
     color: #333333;
 }
-
 header .sign-menu:last-child {
     margin-right: 0px;
+}
+#toggle-btn {
+    display: none;
+    background: url(../image/toggle-btn.svg);
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
 }
 
 
@@ -127,23 +136,41 @@ header .sign-menu:last-child {
 }
 .section--product li {
     box-sizing: border-box;
+    /* float: left;
+    width: 25%; */
+}
+.section--product li:nth-child(4) {
+    margin-right: 0;
+}
+.section--product li:nth-child(8) {
+    margin-right: 0;
+}
+.section--product li:nth-child(12) {
+    margin-right: 0;
+}
+.section--product li:nth-child(16) {
+    margin-right: 0;
+}
+.section--product li:nth-child(20) {
+    margin-right: 0;
 }
 .section--product .product li img {
     max-width: 100%;
     margin-top: 50px;
-    margin-bottom: 10px;
     box-sizing: border-box;
 }
 .section--product .product li a {
     color: #333333;
 }
 .section--product .product li p {
-    margin-bottom: 10px;
     font-size: 13px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 .section--product .product li h3 {
     font-weight: bold;
-    margin-bottom: 50px;
+    margin: 10px 0 50px;
+    box-sizing: border-box;
 }
 
 
@@ -152,16 +179,20 @@ header .sign-menu:last-child {
 
 /* Footer */
 .section--footer .inner {
-    display: flex;
+    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 .section--footer ul {
     margin-top: 250px;
     margin-bottom: 100px;
+    /* float: left;
+    width: 25%; */
+
 }
 .section--footer ul li {
     margin-top: 15px;
+
 }
 .section--footer ul li a {
     text-decoration: none;
@@ -176,70 +207,3 @@ header .sign-menu:last-child {
     font-weight: bold;
 }
 
-
-
-#toggle-btn {
-    text-indent: -9999px;
-}
-
-
-/* Media */
-@media (max-width: 1024px) {
-    header.section .inner {
-        max-width: none;
-        height: auto;
-        padding: 0 20px;
-    }
-    header .menu-group,
-    header .sign-group {
-        float: none;
-    }
-    header .menu-group {
-        display: block;
-    }
-    header .logo {
-        padding: 50px 0 25px;
-    }
-    header .main-menu {
-        display: block;
-        margin-bottom: 10px;
-    }
-    header .main-menu li {
-        border-top: 1px solid #e5e5e5;
-    }
-    header .main-menu li a {
-        margin: 20px 0;
-    }
-    header .sign-group {
-        display: block;
-    }
-    #search-form {
-        margin-top: 40px;
-        margin-right: 0 ;
-    }
-    #search {
-        width: 100%;
-        height: 42px;
-    }
-    header .sign-menu {
-        margin-top: 20px;
-        margin-right: 0;
-        justify-content: center;
-    }
-    header .toggle {
-        display: none;
-    }
-    header .toggle.on {
-        display: block;
-    }
-    #toggle-btn {
-        background: url(../image/toggle-btn.svg);
-        width: 18px;
-        height: 24px;
-        position: absolute;
-        top: 50px;
-        right: 20px;
-        cursor: pointer;
-        text-indent: -9999px;
-    }
-}

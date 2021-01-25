@@ -1,0 +1,35 @@
+/* Product */
+.section--product .inner {
+    max-width: none;
+}
+.section--product ul {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 100px 0;
+    /* margin-right: 0; */
+}
+.section--product li:last-child {
+    margin-bottom: 150px;
+}
+.section--product .product li img {
+    width: 50%;
+}
+
+
+
+
+/* Footer */
+.section--footer .inner {
+    margin: 0 25%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section--footer .site-links {
+    margin: 50px 0 50px;
+}
+.section--footer ul {
+    margin: 250px 50px 0 0;
+}
+.section--footer ul:last-child {
+    margin-bottom: 100px;
+}
+
+
