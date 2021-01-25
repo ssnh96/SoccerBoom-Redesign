@@ -23,11 +23,9 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .section--footer .site-links {
-    margin: 50px 0 50px;
+    margin: 50px 25px 50px 0;
 }
-.section--footer ul {
-    margin: 250px 50px 0 0;
-}
+
 .section--footer ul:last-child {
     margin-bottom: 100px;
 }
