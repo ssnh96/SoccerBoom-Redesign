@@ -1,2 +1,3 @@
-# SoccerBoom Redesign
- Redesign of an online football shop.
+# SoccerBoom Development
+
+Front-End project for an online football shop.
